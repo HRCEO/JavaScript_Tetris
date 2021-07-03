@@ -19,3 +19,5 @@ js 테트스리 게임
   6. 블럭 저장(3개) 기능 추가하기
     
 7/1일 제작시 참고 영상 :  https://youtu.be/1lNy2mhvLFk
+
+Play 하기 : https://hrceo.github.io/JavaScript_Tetris/html/main.html
