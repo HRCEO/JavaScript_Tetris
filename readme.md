@@ -16,8 +16,10 @@ js 테트스리 게임
   4. 조작법 버튼을 이용하여, 제작 방법 추가하기
   5. 단계가 올라 갈수록 배경의 분위기가 바뀌기
      10단계 부터는 아래에서 1칸이 빠진 블럭이 올라오기
-  6. 블럭 저장(3개) 기능 추가하기
+  6. 블럭 저장(3개) 기능 추가하기 
+  7. 온라인 서버에 구동 하는 방법 찾기
     
 7/1일 제작시 참고 영상 :  https://youtu.be/1lNy2mhvLFk
 
-Play 하기 : https://hrceo.github.io/JavaScript_Tetris/html/main.html
+개발 페이지 확인 하기: https://hrceo.github.io/JavaScript_Tetris/html/main.html
+// JS로드 에러로 실행 되지 않음....
