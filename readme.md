@@ -1,4 +1,7 @@
-js 테트스리 게임
+바닐라 JS + HTML + CSS 를 이용한 테트스리 게임 만들기 !
+
+![img.png](img.png)
+출처 : https://www.youtube.com/watch?v=QQ5U-rN7Veg
 
 07/01
  - 게임 종료 및 다시 시작 구현
