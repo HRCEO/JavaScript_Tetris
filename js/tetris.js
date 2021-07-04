@@ -4,8 +4,8 @@ const scoreDisplay = document.querySelector('.score');
 const restartButton = document.querySelector('.game-text > button')
 const durationStep = document.querySelector('.duration-step');
 
-const GAME_ROWS = 20;
-const GAME_COLS = 10;
+const GAME_ROWS = 25;
+const GAME_COLS = 15;
 
 let score = 0;
 let duration = 700;
@@ -27,10 +27,10 @@ const BLOCKS = {
         [[0,0],[0,1],[1,0],[1,1]],
     ],
     bar:[
-        [[1,0],[2,0],[3,0],[4,0]],
-        [[2,-1],[2,0],[2,1],[2,2]],
-        [[1,0],[2,0],[3,0],[4,0]],
-        [[2,-1],[2,0],[2,1],[2,2]],
+        [[1,0],[2,0],[3,0],[4,0],[5,0]],
+        [[2,-1],[2,0],[2,1],[2,2],[2,3]],
+        [[1,0],[2,0],[3,0],[4,0],[5,0]],
+        [[2,-1],[2,0],[2,1],[2,2],[2,3]],
     ],
     tree :[
         [[1,0],[0,1],[1,1],[2,1]],
@@ -202,7 +202,7 @@ function dropBlock(){
     clearInterval(downInterval);
     downInterval = setInterval(()=>{
         moveBlock('top',1);
-    },10);
+    },8);
 }
 
 document.addEventListener('keydown', e=>{
