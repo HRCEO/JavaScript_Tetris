@@ -10,22 +10,58 @@
 <body>
   <div class="wrapper">
     <div class="game-title-layout">
-      JavaScript - Tetris (by Sung il)
+      JavaScript - Tetris
     </div>
     <div class="game-lay-out">
-      <div class="playground">
+      <div class="save-block-zone">
+        <div class="text-info">Save Block</div>
+        <div class="save-block"></div>
+      </div>
+      <div class="playground paddings-10px">
         <ul></ul>
       </div>
-      <div>
-        점수<div class="score">0</div>
-      </div>
-      <div>
-        단계<div class="duration-step">0</div>
+      <div class="game-play-info-zone">
+        <div class="next-block-zone">
+          <div class="text-info">Next Block</div>
+          <div class="next-block"></div>
+        </div>
+        <div class="paddings-1px"></div>
+        <div class="score-zone ">
+          <div class="text-info">
+            Score
+            <div class="score text-game-point paddings-20px">0</div>
+          </div>
+        </div>
+        <div class="paddings-1px"></div>
+        <div class="duration-zone">
+          <div class="text-info">
+            Level
+            <div class="duration-step text-game-point paddings-20px">0</div>
+          </div>
+        </div>
+        <div class="paddings-1px"></div>
+        <div class="game-control-info">
+          <div class="text-info">
+            Controls
+            <div class="text-control paddings-10px">
+              위치 전환 : ← →<br>
+              방향 전환 : ↑<br>
+              일반 하강 : ↓<br>
+              급속 하강 : Space<br>
+              블록 저장 : S<br>
+              블록 호출 : R
+            </div>
+          </div>
+        </div>
       </div>
       <div class="game-text">
         게임 종료
         <button>다시 시작</button>
       </div>
+    </div>
+    <div class="copyright-info">
+      copyrightⓒ 2021 All rights reserved by MIT
+      (Made Sung il)
     </div>
   </div>
  <script src="../js/tetris.js" type="module"></script>

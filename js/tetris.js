@@ -27,10 +27,10 @@ const BLOCKS = {
         [[0,0],[0,1],[1,0],[1,1]],
     ],
     bar:[
-        [[1,0],[2,0],[3,0],[4,0],[5,0]],
-        [[2,-1],[2,0],[2,1],[2,2],[2,3]],
-        [[1,0],[2,0],[3,0],[4,0],[5,0]],
-        [[2,-1],[2,0],[2,1],[2,2],[2,3]],
+        [[1,0],[2,0],[3,0],[4,0]],
+        [[2,-1],[2,0],[2,1],[2,2]],
+        [[1,0],[2,0],[3,0],[4,0]],
+        [[2,-1],[2,0],[2,1],[2,2]],
     ],
     tree :[
         [[1,0],[0,1],[1,1],[2,1]],
@@ -149,8 +149,8 @@ function checkMatch(){
 
                 scoreDisplay.innerHTML = ++score;
 
-                if(Number.isInteger(score/20)){
-                    duration -= 20*duration_Step;
+                if(Number.isInteger(score/10)){
+                    duration -= 20 * duration_Step;
                     duration_Step++;
                     durationStep.innerHTML = duration_Step;
                 }
