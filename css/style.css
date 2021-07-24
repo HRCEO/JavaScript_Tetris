@@ -12,6 +12,10 @@ body {
 .paddings-20px{
   padding : 20px;
 }
+.paddings-LR-10px{
+  padding-left: 10px;
+  padding-right: 10px;
+}
 .paddings-10px{
   padding : 10px;
 }
@@ -35,7 +39,7 @@ body {
 }
 .game-text > button{
   padding: 0.5rem 1rem;
-  color: #fff;
+  color:#333333;/*color: #fff;*/
   background : salmon;
   border: none;
   cursor:pointer;
@@ -58,19 +62,18 @@ body {
   align-items: center;
 }
 
-.save-block-zone{
-  width: 150px;
-}
+
 .game-play-info-zone{
   width: 150px;
 }
 
-.save-block{
-  height : 300px;
+.save-block-zone{
+  width: 150px;
+  height : 200px;
   border: solid 1px black;
 }
 
-.next-block{
+.next-block-zone{
   height : 200px;
   border: solid 1px black;
 }
@@ -83,7 +86,7 @@ body {
   border: solid 1px black;
 }
 .game-control-info{
-  height : 200px;
+  height : 215px;
   border: solid 1px black;
 }
 
